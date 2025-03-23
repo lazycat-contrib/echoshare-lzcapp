@@ -1,0 +1,1 @@
+import{j as o,G as i,Q as d}from"./index.DoEgvpef.js";function r(){const e=o(0),t=o(0),n=()=>(()=>{e.value=document.body.clientWidth,t.value=document.body.clientHeight})();return i(()=>{e.value=document.body.clientWidth,t.value=document.body.clientHeight,window.addEventListener("resize",n)}),d(()=>{window.removeEventListener("resize",n)}),{width:e,height:t}}export{r as u};

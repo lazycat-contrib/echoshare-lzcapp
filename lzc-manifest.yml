@@ -1,0 +1,14 @@
+lzc-sdk-version: 0.1
+name: Echoshare
+package: cloud.lazycat.app.echoshare
+version: 0.0.1
+description: 一款开箱即用且支持高度自定义配置的在线媒体共享应用
+license: hhttp://www.apache.org/licenses/
+homepage: https://github.com/echoshare/echoshare/
+author: echoshare
+application:
+  subdomain: echoshare
+  routes:
+    - /=file:///lzcapp/pkg/content/
+  public_path:
+    - /
